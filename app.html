@@ -7,11 +7,10 @@
     <title>Spotify Assistant</title>
 </head>
 <body>
-    <div id="login-container" class="" >
+    <div id="login-container" >
         <h1>
             <strong>LOGIN TO YOUR SPOTIFY ACCOUNT</strong>
         </h1>
-
         <input type="text" class="user-input" placeholder="E-mail"/>
         <input type="password" class="user-input" placeholder="Password"/>
         <div>
@@ -20,4 +19,8 @@
     </div>
 </body>
 </html>
-<script src="app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="module" src="/js/modules/global-params.js"></script>
+<script type="module" src="/js/spotify-services.js"></script>
+<script src="/js/app.js"></script>
