@@ -6,10 +6,47 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Varela Round';
+    color:floralwhite;
 }
 
-h1 {
-    color: white;
+main {
+    width: 60%;
+    margin: 35 auto;
+}
+
+.scroll-anim-container {
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.scroll-anim:hover {
+    animation-duration: 15s;
+    animation-name: slide-left;
+  }
+
+@keyframes slide-left {
+    to {
+        margin-left: -100%;
+    }
+
+}
+
+.song-container img {
+    width: 150px;
+    height: 190px;
+    min-width: 30%;
+    min-height: 140px;
+}
+
+.song-container {
+    height: fit-content;
+    padding: 10px 0;
+}
+
+.song-info {
+    float: left;
+    width: 70%;
+    vertical-align: middle;
 }
 
 .user-input {
@@ -37,8 +74,6 @@ h1 {
     width: fit-content;
     padding-top: 95px;
     border-radius: 8px;
-	margin-left: auto;
-    margin-right: auto;
     padding-top: 15px;
     text-align: center;
 }
