@@ -1,6 +1,6 @@
 # Spotify-Assistant
 
-This is a little "fun" project that i started out of boredom, 
+This is a little fun project that i started out of boredom, 
 the idea is to add some interesting functionality to the music streaming app Spotify 
 by using some developer services and APIs offered by the Spotify Technologies company 
 in their web page.
